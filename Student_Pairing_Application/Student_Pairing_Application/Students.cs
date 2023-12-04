@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Student_Pairing_Application
 {
-    public class Students
+    public class Students : Groups
     {
         //fields
 
