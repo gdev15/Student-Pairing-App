@@ -12,14 +12,16 @@ namespace Student_Pairing_Application
 
         //props
         public string Name { get; set; }
+        public int StudentId { get; set; }
 
         //ctors
 
         //methods
         public Students() { }
-        public Students(string name)
+        public Students(string name, int studentId)
         {
             Name = name;
+            StudentId = studentId;
         }
     }
 }
