@@ -23,5 +23,10 @@ namespace Student_Pairing_Application
             Name = name;
             StudentId = studentId;
         }
+
+        public override string ToString()
+        {
+            return $"Name:{Name}\nStudentId:{StudentId}\n";
+        }
     }
 }

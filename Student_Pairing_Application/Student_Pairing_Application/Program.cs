@@ -1,44 +1,19 @@
 ﻿namespace Student_Pairing_Application
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-            Students student1 = new()
+            string StudentNames = "Leo,Raph,Mike,Don,April,Splinter";
+            Students[] students = Groups.CreateStudentArray(StudentNames);
+            //Console.WriteLine(students[0]);
+
+            foreach (var item in students)
             {
-                Name = "Mike",
-                StudentId = 1
-            };
-            
-            Students student2 = new()
-            {
-                Name = "April",
-                StudentId = 2
-            };
-            
-            Students student3 = new()
-            {
-                Name = "Leo",
-                StudentId = 3
-            };
-            
-            Students student4 = new()
-            {
-                Name = "Raph",
-                StudentId = 4
-            };
-            
-            Students student5 = new()
-            {
-                Name = "Don",
-                StudentId = 5
-            };
-            
-            Students student6 = new()
-            {
-                Name = "Splinter",
-                StudentId = 6
-            };
+                Console.WriteLine(item);
+            }
+
+            var newRandomArray = Random[](0, students.Length);
         }
     }
 }
