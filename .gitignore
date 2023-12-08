@@ -396,3 +396,4 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+/StageOfHistory1/StageOfHistory1.UI.MVC/appsettings.json
